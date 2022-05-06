@@ -1,0 +1,82 @@
+
+.base-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+input[name = "useraddress"] {
+  color: black;
+}
+input[type = "submit"] {
+  background-color: #3474dbb2;
+}
+.base-container .header {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0px;
+}
+.base-container .content {
+  display: flex;
+  flex-direction: column;
+
+}
+.base-container .content .image {
+  width: 21em;
+}
+.base-container .content .image img {
+  width: 50%;
+}
+.base-container .content .form {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.base-container .content .form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+
+}
+
+.base-container .content .form .form-group label {
+  font-size: 16px;
+}
+
+.base-container .content .form .form-group input {
+  min-width: 18em;
+  height: 37px;
+  padding: 0px 5px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f3f3f3;
+  border: 0;
+  border-radius: 0px;
+  margin: 10px;
+  transition: all 250ms ease-in-out;
+}
+
+.base-container .content .form .form-group input[type="submit"]:hover {
+  background-color: #40703ebb;
+  outline: none;
+  /* box-shadow: 0px 0px 12px 0.8px #3474dbb2; */
+
+  color: white;
+
+} 
+.base-container .content .form .form-group input:focus {
+  outline: none;
+  box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+}
+
+.base-container .footer {
+}
+
+.validate--error{
+  color: red;
+}

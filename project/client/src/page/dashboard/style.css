@@ -1,0 +1,61 @@
+.title_table{
+    padding: 0.2rem 0;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    color: #40703e;
+    margin: 20px 0;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: normal;
+}
+.makeStyles-tableHeaderCell-3{
+    background-color: #40703e !important;
+}
+.makeStyles-tableHeaderCell-10{
+    background-color: #40703e !important;
+}
+.makeStyles-status-6{
+    padding: 6px 13px !important;
+    border-radius: 18px !important;
+    background-color: #40703e !important;
+}
+.makeStyles-status-6:hover{
+    background-color: #bbbbbb65 !important;
+    color: rgb(0, 0, 0) !important;
+}
+.makeStyles-status-13 {
+    padding: 6px 11px !important;
+    border-radius: 16px !important;
+    background-color: #40703e !important;
+}
+.MuiTypography-colorPrimary{
+    color: #40703e !important;
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    font-family: fantasy !important;
+}
+.MuiTypography-colorPrimary:hover{
+    color: #ff4400 !important;
+}
+.makeStyles-name-5 {
+    color: #40703e !important;
+    font-weight: bold !important;
+    font-family: fantasy !important;
+    font-weight: 100 !important;
+}
+.MuiTypography-colorTextSecondary {
+    color: rgb(0 0 0 / 42%) !important;
+    font-family: fantasy !important;
+    font-weight: 100 !important;
+}
+.makeStyles-name-12{
+    color: #40703e !important;
+    font-family: fantasy !important;
+    font-weight: 100 !important;
+}
+.makeStyles-status-13:hover {
+    background-color: #bbbbbb65 !important;
+    color: black !important;
+}
